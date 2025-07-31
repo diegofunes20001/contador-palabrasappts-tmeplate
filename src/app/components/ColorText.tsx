@@ -36,7 +36,8 @@ export default function ColorText() {
       onChange={(e) => setTexto(e.target.value)}
       className="w-80 h-40 p-2 border border-gray-100 rounded-md"
       />
-      <span className="mt-4" style={{ color: color }}>Color de Letras: {colorLetras}</span>
+      <span className="mt-4">Texto ingresado: {text}</span>
+      <span className="mt-4" style={{ color: color }}>Text: {colorLetras}</span>
    </div>
   );
 }
